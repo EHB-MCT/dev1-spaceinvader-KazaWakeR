@@ -30,5 +30,8 @@ function spaceinvader() {
    context.fillRect(409,487,50,50);
    context.fillRect(359,487,50,50);
 
+   context.fillRect(510,410,50,50);
+   context.fillRect(340,410,50,50);
+
 
 }
