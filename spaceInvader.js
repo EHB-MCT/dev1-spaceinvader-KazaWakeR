@@ -1,6 +1,7 @@
 "use strict";
 
 
+
 spaceinvader();
 
 function spaceinvader() {
@@ -11,40 +12,41 @@ function spaceinvader() {
    let context = canvas.getContext("2d");
 
    context.fillStyle = "black";
-   context.fillRect(300, 300, 300, 300);
+   context.fillRect(0, 0, 300, 300);
    
    context.fillStyle = "#66FF66";
 
 
    //LEFT LINE
-   context.fillRect(325,526,50,50);
+   context.fillRect(25,26,50,50);
 
-   context.fillRect(325,476,50,50);
+   context.fillRect(25,70,50,50);
 
-   context.fillRect(325,426,50,50);
+   context.fillRect(25,120,50,50);
 
-   context.fillRect(325,376,50,50);
+   context.fillRect(25,170,50,50);
 
-   context.fillRect(325,326,50,50);
+   context.fillRect(25,220,50,50);
   
    //RIGHT LINE
   
-   context.fillRect(520,326,50,50);
+   context.fillRect(221,26,50,50);
 
-   context.fillRect(520,336,50,50);
+   context.fillRect(221,76,50,50);
 
-   context.fillRect(520,378,50,50);
+   context.fillRect(221,126,50,50);
 
-   context.fillRect(520,428,50,50);
+   context.fillRect(221,176,50,50);
 
-   context.fillRect(520,478,50,50);
+   context.fillRect(221,220,50,50);
 
-   context.fillRect(520,525,50,50);
+   context.fillRect(221,221,50,50);
 
    //MID DOTS//
 
-   context.fillRect(424,326,50,50);
+   context.fillRect(123,26,50,50);
 
-   context.fillRect(424,476,50,50);
+   context.fillRect(123,170,50,50);
 
+   
 }
